@@ -16,12 +16,13 @@ int main()
 	double km;
 	cin >> km;
 	kmpergallons(km,litres);
-	cout << x;
+
 }
 
 double kmpergallons(double km, double litres)
 {
 	double GALLON = litres*gallons;
 	double x = km / GALLON;
-	return x;
+	cout << "Number of kilometres per gallon : " << x;
+	return 0;
 }
