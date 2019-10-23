@@ -1,0 +1,27 @@
+// lab 7 - function q3 page 79
+#include <iostream>
+using namespace std;
+
+//prototype (if fx is after main)
+double kmpergallons(double, double);
+
+const double gallons = 0.264179;
+
+int main()
+{
+	cout << "Enter number of litres of petrol : " << endl;
+	double litres;
+	cin >> litres;
+	cout << "Enter number of kilometres : " << endl;
+	double km;
+	cin >> km;
+	kmpergallons(km,litres);
+	cout << x;
+}
+
+double kmpergallons(double km, double litres)
+{
+	double GALLON = litres*gallons;
+	double x = km / GALLON;
+	return x;
+}
